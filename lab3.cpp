@@ -239,7 +239,7 @@ int number::getcount()
 }
 int main()
 {
-    cout << "the value of count before object creation is : " << number::getcount() << endl;
+    cout << "the value of count before object creation is : " << getcount() << endl;
     number n1(5, 6);
     cout << "the value of count after object creation is : " << number::getcount() << endl;
     system("pause");
